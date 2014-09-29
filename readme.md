@@ -1,0 +1,3 @@
+Just an example of how to extend/modify BuddyPress Notifications. Built for demonstration purposes, built for [WordCamp Tampa](http://2014.tampa.wordcamp.org).
+
+It is assumed you have a function that is inserting a notification (perhaps on a hook, like adding a notification after a comment on a post like with 'comment_post_redirect'). Inserting a notification with bp_notifications_add_notification() is assumed. This function is part of a larger example and project where once someone comments on a particular post of a particular post type, a select group of users gets a BuddyPress notification.
